@@ -1,4 +1,4 @@
-{{- $ga := .Site.GoogleAnalytics -}}
+{{- $ga := .Site.Config.Services.GoogleAnalytics.ID -}}
 {{ with .Site.Params.crisp -}}
 {{ if .websiteid -}}
 <script type="text/javascript">
